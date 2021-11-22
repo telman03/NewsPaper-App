@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # local
     'accounts', # new
     'pages', # new
+    'articles', # new
 ]
 
 MIDDLEWARE = [
@@ -115,7 +116,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # new
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/New_York'  # new
 
 USE_I18N = True
 
